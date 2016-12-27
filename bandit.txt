@@ -12,7 +12,8 @@ bandit8 to bandit9: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 bandit9 to bandit10: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 bandit10 to bandit11: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 bandit11 to bandit12: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+bandit12 to bandit13: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 
-ROT13 pass: 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
+
 
