@@ -1,0 +1,40 @@
+web based game.
+Starts here: http://natas0.natas.labs.overthewire.org/
+
+* natas0 to natas1: F12, pass in comments
+* natas1 to natas2: F12, pass in comments
+* natas2 to natas3: F12, check img in html it has a url, go to ~/files and u can find users and passwords there
+* natas3 to natas4: do a google search on the site and look for the file users.txt (previous lvl
+* natas4 to natas5: modify request header to edit the referer, make it look like you are natas5
+* natas5 to natas6: modify cookie 'loggedin' to mimic that you are logged in (through console js command)
+* natas6 to natas7: look at source code, check location of secret.inc, put it in form and thats it.
+* natas7 to natas8: there is a hint in the comments, simply navigate there page=""
+* natas8 to natas9: source code contains encoded secret and a function which compares input to encoded secret. decode the secret.
+* natas9 to natas10: source code hints you that it is a unix command line, so inject some command using pipeline (|) to get the password from the usual place (/etc/natas_webpass/)
+* natas10 to natas11: 
+
+last pass: nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu(natas10)
+
+
+if($key != "") {
+    if(preg_match('/[;|&]/',$key)) {
+        print "Input contains an illegal character!";
+    } else {
+        passthru("grep -i $key dictionary.txt");
+    }
+}
+
+| cat /etc/natas_webpass/natas11 ,$matches,0,26
+
+if($key != "") {
+    if(preg_match('/[;|&]/',$key)) {
+        print "Input contains an illegal character!";
+    } else {
+        passthru("grep -i $key dictionary.txt");
+    }
+}
+
+
+
+
+
